@@ -11,10 +11,11 @@ My motivation is make a motor alarm system as cheap way.
 
 # Some screenshots
 
-![home screen shot](https://github.com/hmetgundogdu/motoalarm/blob/main/screenshots/home.jpg?raw=true | width=100)
-![control panel screen shot](https://github.com/hmetgundogdu/motoalarm/blob/main/screenshots/controlPanel.jpg?raw=true | width=100)
-![settings screen shot](https://github.com/hmetgundogdu/motoalarm/blob/main/screenshots/settings.jpg?raw=true | width=100)
-
+<div style="float:left;">
+  <img src="https://github.com/hmetgundogdu/motoalarm/blob/main/screenshots/home.jpg?raw=true" width="32%">
+  <img src="https://github.com/hmetgundogdu/motoalarm/blob/main/screenshots/controlPanel.jpg?raw=true" width="32%">
+  <img src="https://github.com/hmetgundogdu/motoalarm/blob/main/screenshots/settings.jpg?raw=true" width="32%">
+</div>
 # Status
 
 Coming soon.
