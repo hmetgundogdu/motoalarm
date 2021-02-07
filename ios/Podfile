@@ -1,0 +1,51 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '10.0'
+
+target 'motoalarm' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  pod 'react-native-ble-plx', :path => '../node_modules/react-native-ble-plx'
+
+  pod 'RCT3DModel', :path => '../node_modules/react-native-3d-model-view'
+
+  pod 'RNZipArchive', :path => '../node_modules/react-native-zip-archive'
+
+  pod 'rn-fetch-blob', :path => '../node_modules/rn-fetch-blob'
+
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
+  pod 'react-native-background-worker', :path => '../node_modules/react-native-background-worker'
+
+  pod 'RNSound', :path => '../node_modules/react-native-sound'
+
+  pod 'react-native-ble-manager', :path => '../node_modules/react-native-ble-manager'
+
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+
+  target 'motoalarmTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  use_flipper!
+  post_install do |installer|
+    flipper_post_install(installer)
+  end
+end
+
+target 'motoalarm-tvOS' do
+  # Pods for motoalarm-tvOS
+
+  target 'motoalarm-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
