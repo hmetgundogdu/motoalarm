@@ -11,7 +11,7 @@ I'll create a repo for  side of Arduino soon.
 
 # Motivation
 
-My motivation is make a motor alarm system as cheap way.
+My motivation is make a motorcycle alarm system as cheap way.
 
 # Some screenshots
 
@@ -20,33 +20,6 @@ My motivation is make a motor alarm system as cheap way.
   <img src="https://github.com/hmetgundogdu/motoalarm/blob/main/screenshots/controlPanel.jpg?raw=true" width="32%">
   <img src="https://github.com/hmetgundogdu/motoalarm/blob/main/screenshots/settings.jpg?raw=true" width="32%">
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Status
 
