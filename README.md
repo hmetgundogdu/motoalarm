@@ -62,5 +62,6 @@ Current status is prototyping.
 * Make a guide for closing battery optimization.
 * Change bluetooth UUID ("00000918-0000-1000-8000-00805f9b34fb") with truth purpose.
 * Change color spectrum. (more simple)
+* Create test scenarios.
 
-[License][https://github.com/hmetgundogdu/motoalarm/blob/main/LICENSE]
+[License](https://github.com/hmetgundogdu/motoalarm/blob/main/LICENSE)
